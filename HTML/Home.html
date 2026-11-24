@@ -1,0 +1,249 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>I'm Sorry | Reitumetse</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <p class="logo">A letter from the heart ♡</p>
+    </header>
+
+    <main>
+
+        <!-- Opening section -->
+        <section class="hero" id="home">
+
+            <p class="small-heading">A LETTER FOR SOMEONE SPECIAL</p>
+
+            <h1>I'm Sorry<span>.</span></h1>
+
+            <p class="subtitle">
+                To Reitumetse Zipporah Helepi
+            </p>
+
+            <p class="intro">
+                There are some things I wish I had said sooner.
+                Some things I wish I had done differently.
+                And some people you don't realise how much
+                you miss until they're no longer around.
+            </p>
+
+            <div class="envelope" id="envelope">
+                <div class="envelope-back"></div>
+                <div class="letter-icon">♡</div>
+                <div class="envelope-flap"></div>
+            </div>
+
+            <button id="openLetter">
+                Open my letter ♡
+            </button>
+
+            <p class="hint">A little message, written sincerely.</p>
+
+        </section>
+
+
+        <!-- Apology letter -->
+        <section class="letter-section hidden" id="letter">
+
+            <p class="small-heading">FROM MY HEART</p>
+
+            <h2>Dear Reitumetse,</h2>
+
+            <div class="letter-content">
+
+                <p>
+                    I'm the most annoying ex on earth and I'm sorry for that but I hope attachment issues don't find me again even in my life time but 
+                </p>
+
+                <p>
+                    I love you so much
+                </p>
+
+                <p>
+                    I'm genuinely sorry for the part I played in
+                    how things turned out. I'm not writing this
+                    to make excuses or to make you feel obligated
+                    to forgive me.
+                </p>
+
+                <p>
+                    The truth is, I miss you. I miss having you
+                    around, talking to you and being able to share
+                    parts of my life with you.
+                </p>
+
+                <p>
+                    More than anything, I miss our friendship.
+                </p>
+
+                <p>
+                    I know things cannot simply go back to how
+                    they were, and I understand that rebuilding
+                    a friendship takes time, effort and willingness
+                    from both people.
+                </p>
+
+                <p>
+                    If you ever find it in your heart to give me
+                    another opportunity, I would really appreciate
+                    the chance to be your friend again.
+                </p>
+
+                <p>
+                    I don't expect everything to happen overnight.
+                    I'd rather start with a simple conversation
+                    and take things one step at a time.
+                </p>
+
+                <p>
+                    Regardless of your decision, I want you to
+                    know that I'm genuinely sorry, and I hope
+                    life continues to be kind to you.
+                </p>
+
+                <p class="closing">
+                    I miss you, and I hope we can find our way
+                    back to being friends.
+                </p>
+
+                <p class="signature">
+                    With sincerity,<br>
+                    Someone who misses you ♡
+                </p>
+
+            </div>
+
+            <button id="replyButton">
+                Leave me a message ♡
+            </button>
+
+        </section>
+		
+		
+<!-- Special features section -->
+<section class="special-section">
+
+    <p class="small-heading">A LITTLE SOMETHING EXTRA</p>
+
+    <h2>Some things are still left unsaid...</h2>
+
+    <!-- Hidden letter -->
+    <div class="secret-envelope" id="secretEnvelope">
+        <div class="secret-heart">♡</div>
+        <p>A little letter for you</p>
+        <button id="secretButton">Open the little letter</button>
+    </div>
+
+    <div class="secret-letter hidden" id="secretLetter">
+        <h3>One more thing...</h3>
+
+        <p>
+            Ke shakesphere I'm sorry, ngiyathanda baby
+        </p>
+
+        <p>
+            Buya baby
+        </p>
+
+        <p>
+            I hope that one day we can look back without
+            carrying the weight of everything that happened.
+        </p>
+
+        <p class="signature">With sincerity ♡</p>
+    </div>
+
+    <!-- Typewriter feature -->
+    <div class="typewriter-card">
+        <p class="small-heading">WORDS I NEVER SAID</p>
+
+        <h3 id="typingText"></h3>
+
+        <button id="typingButton">Read my words</button>
+    </div>
+
+    <!-- Random messages -->
+    <div class="message-card">
+
+        <p class="small-heading">A MESSAGE FOR WHENEVER</p>
+
+        <h3>Whenever you need a little reminder...</h3>
+
+        <p id="randomMessage">
+            There is a little message waiting for you.
+        </p>
+
+        <button id="messageButton">
+            Give me a message ♡
+        </button>
+
+    </div>
+
+</section>
+
+
+
+        <!-- Reply section -->
+        <section class="reply-section hidden" id="reply">
+
+            <p class="small-heading">I WOULD LOVE TO HEAR FROM YOU</p>
+
+            <h2>Can we talk?</h2>
+
+            <p>
+                Whatever you feel, your honesty is welcome.
+                Take your time. There is no pressure.
+            </p>
+
+            <form id="replyForm">
+
+                <label for="name">Your name</label>
+
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Your name"
+                    required
+                >
+
+                <label for="message">Your message</label>
+
+                <textarea
+                    id="message"
+                    rows="6"
+                    placeholder="Write whatever is on your heart..."
+                    required
+                ></textarea>
+
+                <button type="submit">
+                    Send my response ♡
+                </button>
+
+            </form>
+
+            <p id="successMessage" class="success hidden">
+                Thank you for taking the time to respond. ♡
+            </p>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Written with sincerity ♡</p>
+        <p>For Reitumetse Zipporah Helepi</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
